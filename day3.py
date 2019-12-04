@@ -100,6 +100,7 @@ def fewest_steps_to_intersection(p1, p2, ints):
 
     return min_steps
 
+
 with open('day3_data/wire1.txt', 'r') as wire1_txt:
     wire1 = wire1_txt.read().split(',')
 
